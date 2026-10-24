@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+projects/**/data/*.json
+!projects/**/data/.gitkeep
+chapter-*/output/
+chapter-09-real-world/browser/*.js
+projects/06-todo-cli/data/
+projects/09-bookmark-api/data/
