@@ -7,3 +7,4 @@ chapter-*/output/
 chapter-09-real-world/browser/*.js
 projects/06-todo-cli/data/
 projects/09-bookmark-api/data/
+!chapter-06-files-io/data/server.log
