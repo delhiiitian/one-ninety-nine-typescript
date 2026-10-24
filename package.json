@@ -1,0 +1,22 @@
+{
+  "name": "one-ninety-nine-typescript",
+  "version": "1.0.0",
+  "description": "Runnable code for the book \"The 199 Series: TypeScript\" - 81 short examples and 9 projects for beginners.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx scripts/run-all.ts",
+    "start": "tsx",
+    "build:browser": "tsc chapter-09-real-world/08-browser-dom.ts --outDir chapter-09-real-world/browser --target es2022 --module es2022 --lib es2023,dom --moduleResolution bundler --strict",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

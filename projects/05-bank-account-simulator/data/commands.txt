@@ -1,0 +1,15 @@
+# One command per line. Lines starting with # are ignored.
+deposit A1 15000
+deposit B2 3000
+withdraw A1 2500.50
+withdraw B2 5000
+transfer A1 B2 4000
+deposit A1 -50
+deposit A1 10.123
+withdraw C3 100
+withdraw A1 8000
+withdraw A1 1000
+freeze B2
+deposit B2 100
+transfer A1 B2 100
+borrow A1 100

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chapter 9.8 - Tiny task list</title>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 420px; margin: 40px auto; }
+      li { cursor: pointer; padding: 4px 0; }
+      li.done { text-decoration: line-through; color: #888; }
+    </style>
+  </head>
+  <body>
+    <h1>Tasks (<span id="count">0</span>)</h1>
+    <input id="task-input" placeholder="New task" />
+    <button id="add-button">Add</button>
+    <ul id="task-list"></ul>
+    <!-- Created by: npm run build:browser -->
+    <script type="module" src="08-browser-dom.js"></script>
+  </body>
+</html>
